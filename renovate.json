@@ -5,6 +5,9 @@
   "prConcurrentLimit": 2,
   "prHourlyLimit": 0,
   "rebaseWhen": "behind-base-branch",
+  "ignoreDeps":[
+    "terraform-provider"
+  ],
   "packageRules": [
     {
       "matchDatasources": ["terraform-module"],
