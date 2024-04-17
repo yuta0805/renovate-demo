@@ -8,6 +8,11 @@
   "ignoreDeps":[
     "terraform-provider"
   ],
+  "terraform": {
+    "ignorePaths":[
+      "**/provider.tf"
+    ]
+  },
   "packageRules": [
     {
       "matchDatasources": ["terraform-module"],
